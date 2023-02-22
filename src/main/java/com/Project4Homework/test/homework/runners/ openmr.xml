@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Openmr Information">
+<!--    <test name="LoginPage Test">-->
+<!--        <parameter name="userName" value="admin"> </parameter>-->
+<!--        <parameter name="password" value="pass"> </parameter>-->
+
+<!--        <classes>-->
+<!--            <class name="com.Project4Homework.test.homework.test.LoginPageTest"> </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="MainPage Test">-->
+<!--        <parameter name="username" value="admin"> </parameter>-->
+<!--        <parameter name="password" value="pass"> </parameter>-->
+<!--        <parameter name="patient" value="Belford"> </parameter>-->
+<!--        <parameter name="fullName" value="Belford, Phil"> </parameter>-->
+<!--        <parameter name="homePhone" value="333-444-2222"> </parameter>-->
+<!--        <parameter name="ssn" value="333222333"> </parameter>-->
+<!--        <parameter name="dateOfBirth" value="1972-02-09"> </parameter>-->
+<!--        <classes>-->
+<!--            <class name="com.Project4Homework.test.homework.test.MainPageTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="CreateNewPage Test">-->
+<!--        <parameter name="userName" value="admin"> </parameter>-->
+<!--        <parameter name="password" value="pass"> </parameter>-->
+<!--        <parameter name="patient" value="Belford"> </parameter>-->
+<!--        <parameter name="message" value="This is for testing"> </parameter>-->
+
+<!--        <classes>-->
+<!--            <class name="com.Project4Homework.test.homework.test.CreateNewMessageTest"> </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Amendment Test">
+
+        <parameter name="userName" value="admin"> </parameter>
+        <parameter name="password" value="pass"> </parameter>
+        <parameter name="patient" value="belford"> </parameter>
+
+        <classes>
+            <class name="com.Project4Homework.test.homework.test.MainPageTest"> </class>
+
+        </classes>
+    </test>
+
+</suite>
